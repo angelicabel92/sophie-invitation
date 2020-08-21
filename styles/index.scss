@@ -3,6 +3,7 @@
         width: 70%;
         margin: auto;
         font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     &__date {
@@ -67,5 +68,21 @@
             font-size: 1.1rem;
             font-weight: 600;
         }
+    }
+}
+
+
+@media (max-width: 920px) {
+    .ceremory-component__retr {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+
+    .ceremory-component__btn {
+        margin-bottom: 1.5rem;
     }
 }

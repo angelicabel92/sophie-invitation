@@ -1,0 +1,14 @@
+body {
+    background-color: $base;
+    color: $color-text;
+    font-family: $base-font;
+}
+
+a {
+    color: $primary;
+
+    &:hover {
+        color: $secondary;
+        text-decoration: none;
+    }
+}

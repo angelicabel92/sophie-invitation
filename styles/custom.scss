@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Reboot
+@import './variables.scss';
+@import './generals.scss';
+
+// Components
+@import './header.scss';
+@import './index.scss';

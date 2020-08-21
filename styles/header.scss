@@ -1,0 +1,31 @@
+.header {
+    &__img {
+        background-image: url('/sopi.jpg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 70% 80%;
+        filter: contrast(1.3);
+
+        &--title {
+            bottom: -1.5rem;
+            left: 0;
+            right: 0;
+            width: 70%;
+
+            h1 {
+                font-family: $title-font;
+                font-size: 4rem;
+            }
+        }
+    }
+
+    &-nav {
+        width: 50%;
+        justify-content: space-evenly;
+
+        span {
+            color: $primary;
+        }
+    }
+}

@@ -29,7 +29,7 @@ const CeremonyComponent = () => {
                 </Col>
                 <Col lg='6'>
                     <h4 className='ceremory-component__title'>Mis papis</h4>
-                    <div className='d-flex justify-content-around flex-wrap mt-4'>
+                    <div className='d-flex justify-content-around mt-4'>
                         <div className='d-flex ceremory-component__retr mb-4'>
                             <Image className='ceremory-component__retr--img' src="./jessica.png" />
                             <p>Jessica Martinez</p>
@@ -42,7 +42,7 @@ const CeremonyComponent = () => {
                 </Col>
                 <Col lg='6'>
                     <h4 className='ceremory-component__title'>Mis padrinos</h4>
-                    <div className='d-flex justify-content-around flex-wrap mt-4'>
+                    <div className='d-flex justify-content-around mt-4'>
                         <div className='d-flex ceremory-component__retr mb-4'>
                             <Image className='ceremory-component__retr--img' src="./angelica.png" />
                             <p>Angélica Beltrán</p>

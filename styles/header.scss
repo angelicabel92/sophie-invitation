@@ -29,15 +29,3 @@
         }
     }
 }
-
-@media (max-width: 920px) {
-    .header {
-        &__img {
-            &--title {
-                width: 100%;
-                top: 0;
-                bottom: auto;    
-            }
-        }
-    }
-}

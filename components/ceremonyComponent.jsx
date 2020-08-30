@@ -16,7 +16,7 @@ const CeremonyComponent = () => {
                         <span className="ceremory-component__date--month">Agosto <br/> de 2020</span>
                     </div>
                     <p className="ceremory-component__hour">Hora: 10:00 AM</p>
-                    <a className="btn btn-lg ceremory-component__btn" href="https://meet.google.com/xeq-nkpp-ozy" target='_blank'> Ir a la capilla</a>
+                    <a className="btn btn-lg ceremory-component__btn" href="https://www.facebook.com/100004940283250/videos/1747633992077927/" target='_blank'> Ir a la capilla</a>
                 </Col>
                 <Col lg='6' className='ceremory-component__img'>
                     <Image src="./familia-bm.jpeg" rounded />
